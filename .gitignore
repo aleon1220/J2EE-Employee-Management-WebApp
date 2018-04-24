@@ -1,0 +1,24 @@
+#.config file for eclipse projects
+.settings
+/.classpath
+/bin/
+/.project
+/.metadata
+/build
+
+#target with generated objects
+/target/
+
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<faces-config
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-facesconfig_1_2.xsd"
+    version="1.2">
+	<navigation-rule>
+		<display-name>RegisterEmployee</display-name>
+		<from-view-id>/RegisterEmployee.jsp</from-view-id>
+		<navigation-case>
+			<from-outcome>success</from-outcome>
+			<to-view-id>/Success.jsp</to-view-id>
+		</navigation-case>
+	</navigation-rule>
+	<navigation-rule>
+		<display-name>RegisterEmployee</display-name>
+		<from-view-id>/RegisterEmployee.jsp</from-view-id>
+		<navigation-case>
+			<from-outcome>failure</from-outcome>
+			<to-view-id>/RegisterEmployee.jsp</to-view-id>
+		</navigation-case>
+	</navigation-rule>
+    <validator>
+    	<validator-id>ExpValidator</validator-id>
+    	<validator-class>
+    		validator.ExpValidator
+    	</validator-class>
+    </validator>
+	<managed-bean>
+		<description>Employee bean for use in the project</description>
+		<managed-bean-name>employeeBean</managed-bean-name>
+		<managed-bean-class>bean.EmployeeBean</managed-bean-class>
+		<managed-bean-scope>request</managed-bean-scope>
+	</managed-bean>
+
+</faces-config>

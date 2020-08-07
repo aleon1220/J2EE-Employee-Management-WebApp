@@ -23,5 +23,11 @@ mvn package
 deploy in tomcat or any servlet container.
 For the purpose of testing a container architecture using Docker. For the Oracle Database as well containers should be used
 
-# Contribute
-new CSS and xhtml should be used. In fufure extension prime faces and the complete use of Docker for the database, deployment and testing should be used.
+# Contribution goals
+- new CSS and xhtml should be used. In fufure extension prime faces and the complete use of Docker for the database, deployment and testing should be used.
+- Containerise the demo app
+- use an Oracle base Docker Image for the DB
+- impelement docker-compose for a simplified operation of the webApp.
+
+### Extra details
+I am thankful with the opportunity of being the manager of the group. Find more details at [Pasantia Infosys 2011 Colombia-India](https://www.facebook.com/groups/pasantiainfosys2011)

@@ -1,8 +1,12 @@
 # J2EE-EmployeeManagement_404376
 Study project at Infosys final Comprehensive exam. Using JSF, Oracle SQL relational database
+Student ID 404376
 
 # Introduction
-final project at infosys Colombian batch at Mysore Campus.
+Final project at infosys Colombian batch at Mysore Campus, Karnataka, India.
+This was one of my favorite experiences in my life.
+A group of 36 Colombian students went to Mysore India to be trained in J2EE and agile software methodologies.
+Infosys is one of the biggest software companies in the world.
 
 # Getting Started
 it uses pom maven for the dependencies of old JSF and jdbc access.
